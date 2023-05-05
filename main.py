@@ -1,7 +1,9 @@
 from matplotlib import pyplot as plt
 import StringImage
+import os
 
-
+path = "input/"
+imgPath = "input/" + os.listdir(path)[0]
 img_path = "2.jpg"
 radius = 500
 nPins = 240
